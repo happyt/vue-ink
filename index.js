@@ -4,11 +4,15 @@ var readline = require('readline');
 
 //load the ink file
 var inkFile = fs.readFileSync('./screens2.json', 'UTF-8').replace(/^\uFEFF/, '');
+var myInk = JSON.parse(inkFile)
+console.log("Using ink file version: ", myInk.inkVersion)
+myInk.listDefs.teamB = { "Shop": 1, "House": 2, "Judd": 3, "Mango": 4, "Pearce": 5 }
 
 //create a new story
-var myStory = new Story(inkFile);
+var myStory = new Story(JSON.stringify(myInk));
 myStory.variablesState.$("sampleValue", "foxy" )
-myStory.variablesState.$("teamA", 'a, b, c, d, e' )
+myStory.variablesState.$("sampleNumber", 23 )
+
 //start reading and writting to the console
 var rl = readline.createInterface({
   input: process.stdin,
