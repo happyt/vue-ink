@@ -33,13 +33,15 @@ function continueToNextChoice(){
 	//check if there are choices
 	if (myStory.currentChoices.length > 0){
 		for (var i = 0; i < myStory.currentChoices.length; ++i) {
-			var choice = myStory.currentChoices[i];
+            var choice = myStory.currentChoices[i];
+    		console.log(myStory.currentChoices[i])
 			console.log((i + 1) + ". " + choice.text);
 		}
-		
 		//prompt the user for a choice
 		rl.question('> ', (answer) => {
-			//continue with that choice
+            //continue with that choice
+            // Could parse the text here to allow text input
+            //
 			myStory.ChooseChoiceIndex(parseInt(answer) - 1);
 			continueToNextChoice();
 		});
