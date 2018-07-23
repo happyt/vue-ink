@@ -1,0 +1,65 @@
+Choice {
+    isInvisibleDefault: false,
+    targetPath:
+     Path$1 {
+       _components: [ [Object], [Object], [Object] ],
+       _componentsString: null,
+       _isRelative: false },
+    sourcePath: 'Main_screen.0.11.11',
+    threadAtGeneration:
+     Thread {
+       callstack: [ [Object] ],
+       threadIndex: 0,
+       previousPointer: Pointer { container: [Object], index: 10 } },
+    text: 'Weather map',
+    index: 0 }
+  1. Weather map
+  Choice {
+    isInvisibleDefault: false,
+    targetPath:
+     Path$1 {
+       _components: [ [Object], [Object], [Object] ],
+       _componentsString: null,
+       _isRelative: false },
+    sourcePath: 'Main_screen.0.12.11',
+    threadAtGeneration:
+     Thread {
+       callstack: [ [Object] ],
+       threadIndex: 0,
+       previousPointer: Pointer { container: [Object], index: 10 } },
+    text: 'England Players',
+    index: 1 }
+  2. England Players
+  Choice {
+    isInvisibleDefault: false,
+    targetPath:
+     Path$1 {
+       _components: [ [Object], [Object], [Object] ],
+       _componentsString: null,
+       _isRelative: false },
+    sourcePath: 'Main_screen.0.13.11',
+    threadAtGeneration:
+     Thread {
+       callstack: [ [Object] ],
+       threadIndex: 0,
+       previousPointer: Pointer { container: [Object], index: 10 } },
+    text: 'Wales Players',
+    index: 2 }
+  3. Wales Players
+  Choice {
+    isInvisibleDefault: false,
+    targetPath:
+     Path$1 {
+       _components: [ [Object], [Object], [Object] ],
+       _componentsString: null,
+       _isRelative: false },
+    sourcePath: 'Main_screen.0.14.11',
+    threadAtGeneration:
+     Thread {
+       callstack: [ [Object] ],
+       threadIndex: 0,
+       previousPointer: Pointer { container: [Object], index: 10 } },
+    text: 'League table',
+    index: 3 }
+  4. League table
+  
