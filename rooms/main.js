@@ -36,9 +36,9 @@
     ctx.fillRect(4,4, 12,10)
 
     var img = new Image;
-    svg_xml = (new XMLSerializer()).serializeToString('./images/beacon.svg')
-    img.src = "data:image/svg+xml;base64," + btoa(svg_xml)
-    ctx.drawImage(img, 0 , 0 , 100, 100);
+ //   svg_xml = (new XMLSerializer()).serializeToString('./images/beacon.svg')
+//    img.src = "data:image/svg+xml;base64," + btoa(svg_xml)
+ //   ctx.drawImage(img, 0 , 0 , 100, 100);
 
     console.log("start======")
     console.log("global tags", story.globalTags)
